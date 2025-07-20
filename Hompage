@@ -1,0 +1,25 @@
+// /app/page.tsx
+"use client";
+
+import Link from 'next/link';
+
+export default function HomePage() {
+
+  return (
+    <div>
+      <div className="min-h-screen bg-gradient-to-b from-purple-900 via-pink-700 to-yellow-500 flex flex-col items-center justify-center text-white">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">WELCOME TO MY PAGE</h1>
+        <p className="max-w-xl text-sm md:text-base text-white/90 mb-6">
+          "Welcome to a world of creativity and work, where I showcase my skills and experience through projects filled with ideas and dedication."
+        </p>
+
+        <Link href="/about">
+        <button 
+        className="bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6 py-3 rounded-full shadow-lg transition">
+          VIEW PORTFOLIO
+        </button>
+        </Link>
+      </div>
+    </div>
+  );
+}
