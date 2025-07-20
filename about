@@ -1,0 +1,28 @@
+
+export default function About() {
+  return (
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white">
+      <div className="container mx-auto p-8">
+        <h1 className="text-4xl font-bold text-center mb-4">About Us</h1>
+        <img
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/e8c389143228929.62768d8a9dd64.jpg"
+          className="w-50 h-50 rounded-lg mx-auto"
+        />
+
+        <h2 className="text-3xl font-semibold mb-4">Hobbies and Interests</h2>
+        <p className="text-lg mb-6">
+          "I have a passion for hobbies that allow me to constantly learn new skills.
+          I enjoy drawing, which helps me relax and have fun with what I do. Additionally,
+          I also have a deep love for music, which inspires me and encourages me to create new things."
+        </p>
+
+        <h2 className="text-3xl font-semibold mb-4">Future Aspirations</h2>
+        <p className="text-lg mb-6">
+          In the future, I plan to continue my studies at university and work in a profession I am passionate about,
+          particularly in the field of [desired profession]. I believe that development in this area will
+          allow me to contribute positively to society. In the long term, I hope to.
+        </p>
+      </div>
+    </div>
+  );
+}
